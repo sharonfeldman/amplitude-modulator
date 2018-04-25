@@ -1,0 +1,37 @@
+Riviera-PRO 2018.02.79.6878(Windows64) 2018-02-27 12:06:12
+
+Elaboration top modules:
+Architecture                  MODULATOR(Modulator)
+
+
+--------------------------------------------------------------------------------------------------------------
+Entity          | Architecture    | Library             | Info | Compiler Version       | Compilation Options
+--------------------------------------------------------------------------------------------------------------
+Modulator       | MODULATOR       | amplitude_modulator |      | 2018.02.79 (Windows64) | -dbg
+SineGenerator   | SineGenerator   | amplitude_modulator |      | 2018.02.79 (Windows64) | -dbg
+CosineGenerator | CosineGenerator | amplitude_modulator |      | 2018.02.79 (Windows64) | -dbg
+Multiplier      | Multiplier      | amplitude_modulator |      | 2018.02.79 (Windows64) | -dbg
+SawGenerator    | SawGenerator    | amplitude_modulator |      | 2018.02.79 (Windows64) | -dbg
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+VHDL Package                      | Library             | Info | Compiler Version       | Compilation Options
+--------------------------------------------------------------------------------------------------------------
+standard                          | std                 |      |                        | <unavailable>
+TEXTIO                            | std                 |      |                        | <unavailable>
+std_logic_1164                    | ieee                |      |                        | <unavailable>
+MATH_REAL                         | ieee                |      |                        | <unavailable>
+NUMERIC_BIT                       | ieee                |      |                        | <unavailable>
+--------------------------------------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------------------------------------
+Library                           | Comment
+--------------------------------------------------------------------------------------------------------------
+amplitude_modulator               | None
+ieee                              | Standard IEEE packages library
+std                               | Standard VHDL library
+--------------------------------------------------------------------------------------------------------------
+
+
+Simulation Options: asim -O2 -advdataflow modulator
+

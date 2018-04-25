@@ -1,0 +1,71 @@
+timestamp=1519725969091
+
+[~A]
+ModifyID=1
+Version=74
+
+[cosinegenerator]
+A/cosinegenerator=A/CosineGenerator 21|./../src/cosinegenerator.vhd|20|1*1151
+BinW64/cosinegenerator=3*757
+I=0*2238
+I/cosinegenerator=I/CosineGenerator 0*3048
+M=11|2|vde|1519725968960|./../src/cosinegenerator.vhd|0*1858*0x0bd74386ac862478a7a99fc2f3d00f817636aa15|0*2141*0x23b75c12e3e89f2ef000564498faa8c2
+M/cosinegenerator=M/CosineGenerator 21|2|vde|1519725968962|./../src/cosinegenerator.vhd|0*2479*0x04381cb894fef97eada4a2860d682681edef4ab1|0*2932*0x9065d32a2e40e13794b29a2731812845
+R=./../src/cosinegenerator.vhd|11
+Version=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|b72f238653434fc48ae7dd6d806f0037c090f6c3ebe14914a0fed85016082b425a21f17a9abc5ba59508ab8d6e89238a
+Version/cosinegenerator=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|b72f238653434fc48ae7dd6d806f0037c090f6c3ebe14914a0fed85016082b425a21f17a9abc5ba59508ab8d6e89238a
+
+[modulator]
+A/modulator=A/MODULATOR 21|./../src/modulator.vhd|23|1*4464
+I=0*6996
+I/modulator=I/MODULATOR 0*8351
+M=11|2|vde|1519725969085|./../src/modulator.vhd|0*6577*0xa0708cc889476653236d2372084dd0e9dfb6ad45|0*6911*0x23b75c12e3e89f2ef000564498faa8c2
+M/modulator=M/MODULATOR 21|2|vde|1519725969087|./../src/modulator.vhd|0*7197*0x1d824296dbf4c4cd500b49fcaeb72f1637148530|0*8253*0x9065d32a2e40e13794b29a2731812845
+R=./../src/modulator.vhd|10
+Version=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|f3e89f31ff7d510627973988a66e64e839f08beca6824c6950d73c955418dcb7b5bfc96e11d1e61d3a614024a654b29b
+Version/modulator=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|f3e89f31ff7d510627973988a66e64e839f08beca6824c6950d73c955418dcb7b5bfc96e11d1e61d3a614024a654b29b
+
+[multiplier]
+A/multiplier=A/Multiplier 21|./../src/multiplier.vhd|21|1*3501
+BinW64/multiplier=3*2297
+I=0*5502
+I/multiplier=I/Multiplier 0*6108
+M=11|2|vde|1519725969064|./../src/multiplier.vhd|0*5131*0xbe4c5d4a226c9318d5e575a6b1f2975304e5b0cf|0*5415*0x23b75c12e3e89f2ef000564498faa8c2
+M/multiplier=M/Multiplier 21|2|vde|1519725969066|./../src/multiplier.vhd|0*5738*0x8237c37b984510cbda3df2abcbdf054c1a007911|0*6007*0x9065d32a2e40e13794b29a2731812845
+R=./../src/multiplier.vhd|11
+Version=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|ae76990bd7f3693aa5cae06a1fb118e3111672bef854fb9edfeeceb9b633f76018e2447cd3da52d17ea286ed29ae9da5
+Version/multiplier=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|ae76990bd7f3693aa5cae06a1fb118e3111672bef854fb9edfeeceb9b633f76018e2447cd3da52d17ea286ed29ae9da5
+
+[sawgenerator]
+A/sawgenerator=A/SawGenerator 21|./../src/sawgenerator.vhd|20|1*2312
+BinW64/sawgenerator=3*1517
+I=0*3887
+I/sawgenerator=I/SawGenerator 0*4690
+M=11|2|vde|1519725968980|./../src/sawgenerator.vhd|0*3511*0xd68e7177a92e26d182cfa7b3d2624114a8272106|0*3796*0x23b75c12e3e89f2ef000564498faa8c2
+M/sawgenerator=M/SawGenerator 21|2|vde|1519725968982|./../src/sawgenerator.vhd|0*4125*0x39be18e74360ac592e9e2049544f5fc0a31b7bc9|0*4583*0x9065d32a2e40e13794b29a2731812845
+R=./../src/sawgenerator.vhd|11
+Version=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|405c03a555c500f9f80aef895465c21b1b08be02d612a19d6808d3e2d3b4b42a028097904f0b7ae894304290145a908d
+Version/sawgenerator=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|405c03a555c500f9f80aef895465c21b1b08be02d612a19d6808d3e2d3b4b42a028097904f0b7ae894304290145a908d
+
+[sinegenerator]
+A/sinegenerator=A/SineGenerator 21|./../src/sinegenerator.vhd|20|1*0
+BinW64/sinegenerator=3*0
+I=0*589
+I/sinegenerator=I/SineGenerator 0*1393
+M=11|2|vde|1519725968691|./../src/sinegenerator.vhd|0*208*0xf6fd39f8d94263f7fbeea0827ee754a3048f849b|0*496*0x23b75c12e3e89f2ef000564498faa8c2
+M/sinegenerator=M/SineGenerator 21|2|vde|1519725968696|./../src/sinegenerator.vhd|0*828*0xbea60e1164276ddfdb5cd8965caa96180b7d020a|0*1283*0x9065d32a2e40e13794b29a2731812845
+R=./../src/sinegenerator.vhd|11
+Version=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|ec33399ef53de0d8c6ef2ed220056f473e839082b79cd1c85111741d0c9777ae98fcdd24de27e840257526131b3cd115
+Version/sinegenerator=2018.02.79 (Windows64)|00000004789cd34d494a0700030f015b|ec33399ef53de0d8c6ef2ed220056f473e839082b79cd1c85111741d0c9777ae98fcdd24de27e840257526131b3cd115
+
+[~MFT]
+0=35|0amplitude_modulator.mgf|8351|0
+1=5|1amplitude_modulator.mgf|4464|0
+3=4|3amplitude_modulator.mgf|2297|0
+
+[~U]
+cosinegenerator=CosineGenerator 11|0*1646|
+modulator=Modulator 11|0*6355|
+multiplier=Multiplier 11|0*4941|
+sawgenerator=SawGenerator 11|0*3305|
+sinegenerator=SineGenerator 11|0*0|

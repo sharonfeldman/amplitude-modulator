@@ -1,0 +1,68 @@
+<!DOCTYPE riviera-design>
+<riviera-design>
+    <version value="2008.10.31.3118" />
+    <configurations>
+        <configuration name="optimized" />
+        <configuration name="debug" />
+    </configurations>
+    <properties>
+        <configuration name="debug" >
+            <global>
+                <intermediate-dir value="./debug" />
+            </global>
+            <simulation>
+                <general>
+                    <enable-debug value="true" />
+                    <enable-advdataflow value="true" />
+                </general>
+            </simulation>
+            <library>
+                <simulated-library value="amplitude_modulator" />
+                <active-library value="amplitude_modulator" />
+                <simulated-modules value="modulator;modulator;" />
+            </library>
+            <compilation>
+                <verilog>
+                    <generate-debug-information value="true" />
+                </verilog>
+                <cpp>
+                    <generate-debug-information value="true" />
+                </cpp>
+                <vhdl>
+                    <generate-debug-information value="true" />
+                </vhdl>
+            </compilation>
+        </configuration>
+        <configuration name="optimized" >
+            <global>
+                <intermediate-dir value="./optimized" />
+            </global>
+            <library>
+                <simulated-library value="amplitude_modulator" />
+                <active-library value="amplitude_modulator" />
+                <simulated-modules value="modulator;modulator;" />
+            </library>
+            <compilation>
+                <verilog>
+                    <generate-debug-information value="false" />
+                </verilog>
+                <cpp>
+                    <generate-debug-information value="false" />
+                </cpp>
+                <vhdl>
+                    <generate-debug-information value="false" />
+                </vhdl>
+            </compilation>
+        </configuration>
+    </properties>
+    <structure>
+        <file path="src/project_runme.do" />
+        <file path="src/force.do" />
+        <file path="src/cosinegenerator.vhd" />
+        <file path="src/modulator.vhd" />
+        <file path="src/multiplier.vhd" />
+        <file path="src/sawgenerator.vhd" />
+        <file path="src/sinegenerator.vhd" />
+    </structure>
+    <dependencies/>
+</riviera-design>

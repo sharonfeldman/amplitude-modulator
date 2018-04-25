@@ -1,0 +1,1 @@
+ -d C:/Aldec/Riviera-PRO-2018.02-x64/examples/vhdl/amplitude_modulator/compile -work amplitude_modulator -s C:/Aldec/Riviera-PRO-2018.02-x64/examples/vhdl/amplitude_modulator/library.cfg -dbg src/sinegenerator.vhd src/cosinegenerator.vhd src/sawgenerator.vhd src/multiplier.vhd src/modulator.vhd

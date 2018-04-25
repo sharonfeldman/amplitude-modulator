@@ -1,0 +1,18 @@
+<!DOCTYPE riviera-workspace>
+<riviera-workspace>
+    <version value="2008.10.31.3118" />
+    <active-design name="amplitude_modulator" />
+    <active-configuration name="debug" />
+    <designs>
+        <design path="amplitude_modulator.rdsn" />
+    </designs>
+    <dependencies/>
+    <configurations>
+        <configuration name="optimized" >
+            <design name="amplitude_modulator" configuration="optimized" />
+        </configuration>
+        <configuration name="debug" >
+            <design name="amplitude_modulator" configuration="debug" />
+        </configuration>
+    </configurations>
+</riviera-workspace>

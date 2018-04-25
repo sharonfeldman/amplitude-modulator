@@ -1,0 +1,6 @@
+"src\sinegenerator.vhd" VHDL amplitude_modulator 1 0 0 -02
+"src\cosinegenerator.vhd" VHDL amplitude_modulator 1 0 0 -02
+"src\sawgenerator.vhd" VHDL amplitude_modulator 1 0 0 -02
+"src\multiplier.vhd" VHDL amplitude_modulator 1 0 0 -02
+"src\modulator.vhd" VHDL amplitude_modulator 1 0 0 -02
+. . 0 0 0
